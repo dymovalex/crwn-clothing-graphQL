@@ -4,7 +4,6 @@ import * as compose from 'lodash.flowright';
 import { gql } from 'apollo-boost';
 
 import CartIcon from './cart-icon.component';
-import { toggleCartHidden } from '../../redux/cart/cart.actions';
 
 const TOGGLE_CART_HIDDEN = gql`
     mutation ToggleCartHidden {
